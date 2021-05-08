@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 50px;
+  text-align: center;
+  background-color: #798777;
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.container {
+  background-color: #a2b29f;
+  padding: 10px;
+  border-radius: 10px;
+}
+.amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+
+}
+.amount-earned {
+  color: green;
+}
+.amount-spent {
+  color: red;
+}
+.description {
+  outline: none;
+  width: 250px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.amt {
+  outline: none;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.button-container{
+    padding: 10px;
+}
+.add-income {
+  padding: 5px 7px;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  color: white;
+
+}
+.add-expense {
+  padding: 5px 7px;
+  border-radius: 5px;
+  border:none;
+  background-color: red;
+  color: white;
+}
+.box, #inc, #exp{
+    display: flex;
+    justify-content: space-around;
+}
+
+#inc, #exp {
+  flex-direction: column;
+}
+
+.box1{
+  width: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #a2b29f;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.income-amount{
+  display: flex;
+  color: green;
+}
+.expenses-amount{
+  display: flex;
+  color: red;
+
+}
+.incBox, .expBox{
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+.amount-box{
+display: flex;
+}
